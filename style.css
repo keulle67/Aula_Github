@@ -1,11 +1,36 @@
 p{
-    color: red;
+    color: rgb(224, 208, 208);
 }
 
 #azul {
-    color: blue;
+    color: rgb(197, 197, 206);
 }
 
 #roxo {
-    color: purple;
+    color: rgba(217, 215, 224, 0.39);
 }
+
+.cor {
+    color: rgb(214, 215, 226);
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+   
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 70px;
+}
+
+i {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+}
+
+body {
+    background-image: url(https://img.freepik.com/vetores-gratis/fundo-tecnologico-do-favo-de-mel-em-violeta_23-2148282633.jpg?t=st=1682610404~exp=1682611004~hmac=7df7e5155de26faed0ca09f1892cb06a17a250c8972884421509703a11b103c4);
+}
+
