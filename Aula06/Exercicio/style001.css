@@ -19,3 +19,12 @@ label{
 h1{
     text-align: center;
 }
+button{
+    margin:11px;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    background-color: rgb(241, 233, 233);
+    border-radius: ;
+    
+}
