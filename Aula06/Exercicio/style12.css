@@ -28,11 +28,32 @@ main p {
     color: rgb(1, 1, 56); /*muda a classe de cor do texto */ 
 }
 
-form{
+fieldset{
   display:flex ;/* deixa um elemento ao lado do outro de forma flexivel*/
 
   flex-direction: column;/* o texto fica em forma de coluna*/
 
-  gap: 10px; /* espaçamento lateral / top / em baixo */
+  gap: 32px; /* espaçamento lateral / top / em baixo */
 
+}
+
+table {
+    border: 1px solid black; /*definir uma largura para a tabela*/
+}
+
+th{
+    background-color: rgb(120, 95, 233); /* definir uma cor de fundo para os titulosda tabela*/
+
+    padding: 10px; /*espaçamento interno dos titulos*/
+}
+
+td{
+    background-color: rgb(219, 248, 255); /* definir uma cor de fundo para as palavras da tabela (dentro de um retângoulo)*/
+
+    padding: 10px; /* espaçamento interno das palavras*/
+}
+
+footer{
+    border: 1px solid blue;
+    margin-top: 20px;/*espaçamento externo do footer, parte superio*/
 }
