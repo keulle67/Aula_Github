@@ -1,0 +1,38 @@
+body{
+    background-color: rgba(21, 88, 62, 0.473); /*pano de fundo do site*/
+   image-rendering: url (https://e0.pxfuel.com/wallpapers/419/493/desktop-wallpaper-mc-kevin-tem-hit-que-ultrapassa-220-milhoes-de-visualizacoes.jpg);
+    font-family: Arial;/* mudar o estilo de fonte*/
+}
+
+
+header{
+    border: 1px solid rgb(0, 30, 85); /*criar uma borda */
+    padding: 10px; /* Espaçamento interno*/
+    text-align: center;/* alinhar o texto e,d,c*/
+
+}
+
+main{
+    border: 1px solid rgb(3, 27, 37);
+    padding: 10%;
+    margin-top: 20px;/*espaçamento externo do topo*/
+    
+
+}
+
+main p {
+   background-color:transparent;
+}
+
+.azul{
+    color: rgb(1, 1, 56); /*muda a classe de cor do texto */ 
+}
+
+form{
+  display:flex ;/* deixa um elemento ao lado do outro de forma flexivel*/
+
+  flex-direction: column;/* o texto fica em forma de coluna*/
+
+  gap: 10px; /* espaçamento lateral / top / em baixo */
+
+}
